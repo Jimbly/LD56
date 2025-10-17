@@ -451,7 +451,7 @@ class GameState {
     }
     let choice;
     if (!total_w) {
-      choice = rand.range(NUM_KNOBS);
+      choice = rand.range(exotics.length);
     } else {
       let r = rand.range(total_w);
       choice = 0;
